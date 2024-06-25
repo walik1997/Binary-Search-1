@@ -17,3 +17,6 @@ class Solution:
                 else:
                      high=mid-1    
         return -1
+a=Solution()
+b=a.search([3,4,5,6,0,1,2],target=2)
+print(b)
